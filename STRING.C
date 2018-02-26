@@ -1,0 +1,33 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+	class DFG
+}
+    public static void main (String[] args)
+    {
+        String input1 = "abc";
+        String input2 = "1234";
+ 
+        try
+        {
+            Integer.parseInt(input1);
+            System.out.println(input1 + " is a valid integer number");
+        } 
+        catch (NumberFormatException e) 
+        {
+            System.out.println(input1 + " is not a valid integer number");
+        }
+ 
+        try
+     {
+            Integer.parseInt(input2);
+            System.out.println(input2 + " is a valid integer number");
+        } 
+        catch (NumberFormatException e)
+        {
+            System.out.println(input2 + " is not a valid integer number");
+        }
+return 0; 
+    }
+}
